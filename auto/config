@@ -10,7 +10,7 @@ fi
 
 MIR_REP="${MIR_PREFIX}http.debian.net/debian/"
 MIR_SEC="${MIR_PREFIX}security.debian.org/"
-DISTRO="wheezy"
+DISTRO="jessie"
 
 export http_proxy=${MIR_PREFIX}
 

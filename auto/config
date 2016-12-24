@@ -38,6 +38,6 @@ lb config noauto \
   --apt-indices false \
   --cache-packages false \
   --archive-areas 'main contrib non-free' \
-  --bootappend-live "boot=live live-config username=test password=test noeject quiet persistent console=ttyS0,115200n8 console=tty0 hostname=live-test" \
+  --bootappend-live "boot=live username=test password=test noeject persistent console=ttyS0,115200n8 console=tty0 hostname=live-test" \
   "${@}"
 
